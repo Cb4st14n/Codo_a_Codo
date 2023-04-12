@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "Italianno-Regular";
+	src: url("Font/Italianno/Italianno-Regular.ttf");
+  }
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+#global{
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 30px;
+	padding: auto;	
+	background-image: url("../Codo_a_Codo/Img/Fondo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#Cabecera{
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 30px;
+	padding: 0px;
+	
+	
+}
+#letras{
+	color: #fdf3d8;
+	margin-left: 15px;
+
+}
+#titulo{
+	font-family: Italianno-Regular;
+	font-size: 100px;
+}
+#logo{
+	
+}
+body {
+	background-image: url("../Codo_a_Codo/Img/Fondo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+nav {
+	background-color: black;
+	color: white;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  nav li {
+	margin-right: 20px;
+  }
+  
+  nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+  }   
+
